@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Red Hat Display, sans-serif;
+}
+
+.products-head{
+   max-width: 1240px;
+   margin: 0 auto;
+}
+.products-head-items{
+   padding: 16px 0 0;
+}
+
+.products__ti{
+   font-size: 56px;
+   line-height: 70px;
+   font-weight: 600;
+   margin: 0;
+}
+.products-head__info{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1240px;
+   padding: 20px 0 0;
+}
+.products-desc {
+   color: #555555;
+   font-size: 20px;
+   line-height: 32px;
+   max-width: 714px;
+   margin: 0;
+}
+.products-link{
+   color: #222222;
+   font-size: 24px;
+   line-height: 30px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   font-weight: 600;
+}
+
+.cards{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 60px 0;
+}
+
+.products-card{
+   width: 600px;
+   height: 812px;
+   flex-shrink: 0;
+   margin: 0;
+   border: 1px solid #685A5230;
+}
+
+.card-top__img{
+   display: block;
+   width: 100%;
+   height: 484px;
+   object-fit: cover;
+}
+
+.card-content{
+   padding: 16px 32px 32px;
+}
+.card-content__name{
+   color: #222222;
+   font-size: 40px;
+   line-height: 60px;
+   font-weight: 500;
+}
+.card-content__desc {
+   color: #555555;
+   font-size: 20px;
+   line-height: 32px;
+   padding: 16px 0;
+}
+.card-content__bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px 0;
+}
+
+.card-options{
+   display: flex;
+   gap: 26px;
+   padding: 16px 0 0;
+}
+.option_buy{
+   color: white;
+   font-size: 18px;
+   line-height: 24px;
+   padding: 16px 32px 16px 32px;
+   background-color: #402F2C;
+   border: none;
+}
+.option_add{
+   color: #402F2C;
+   font-size: 18px;
+   line-height: 24px;
+   padding: 16px 32px 16px 32px;
+   background-color: white;
+   border: 1px solid #402F2C;
+}
+.price{
+   color: #222222;
+   font-size: 30px;
+   line-height: 32px;
+   font-weight: 600;
+   padding: 16px 0 0;
+}
